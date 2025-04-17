@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="exibir.html" method="get" autocomplete="on">
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome"
+        placeholder="Coloque seu nome aqui!"
+        maxlength="10"
+        required>
+        <br>
+        <label for="numero">Número: </label>
+        <input type="number" name="numero" id="numero">
+        <br>
+        <br>
+
+        <div id="radios">
+            <label for="videogame">Radios de Videogame</label><br>
+            <input type="radio" name="videogame" value="atari"> Atari <br>
+            <input type="radio" name="videogame" value="snes"> Snes <br>
+            <input type="radio" name="videogame" value="ps"> PS <br><br>
+
+            <label for="disciplinas">Radios de Disciplinas</label> <br>
+            <input type="radio" name="disciplinas" value="amelhor"> Tec Front <br>
+            <input type="radio" name="disciplinas" value="intro"> Introdução <br>
+            <input type="radio" name="disciplinas" value="br"> Banco de Dados <br>
+        </div>
+
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
