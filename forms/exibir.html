@@ -9,9 +9,12 @@
 
       const nome = params.get("nome") || "Não informado";
       const numero = params.get("numero") || "Não informada";
+      const aceito = params.get("aceito") || "O contrato não foi aceito!";
 
       document.getElementById("nomeExibido").innerText = nome;
       document.getElementById("numeroExibido").innerText = numero;
+      document.getElementById("aceitoExibido").innerText = aceito;
+      
     }
   </script>
 </head>
@@ -19,6 +22,7 @@
   <h1>Dados Recebidos pela URL</h1>
   <p><strong>Nome:</strong> <span id="nomeExibido"></span></p>
   <p><strong>Numero:</strong> <span id="numeroExibido"></span></p>
+  <p><strong>Aceite:</strong> <span id="aceitoExibido"></span></p>
 
   <a href="index.html">Voltar</a>
 </body>
