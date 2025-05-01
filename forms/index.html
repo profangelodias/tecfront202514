@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
+    <link rel="stylesheet" href="css/forms.css" type="text/css">
     <meta charset="UTF-8">
     <title>Formulário</title>
 </head>
@@ -15,35 +16,35 @@
         <input type="number" name="numero" id="numero">
         <br>
         <br>
-
-        <div id="radios">
-            <label for="videogame">Radios de Videogame</label><br>
+<!-- Aqui um comentário importante! -->
+        <div id="radios" class="dives center">
+            <label class="center" for="videogame" id="lblvgame">Radios de Videogame</label><br>
             <input type="radio" name="videogame" value="atari"> Atari <br>
             <input type="radio" name="videogame" value="snes" checked> Snes <br>
             <input type="radio" name="videogame" value="ps"> PS <br><br>
 
-            <label for="disciplinas">Radios de Disciplinas</label> <br>
+            <label class="center" for="disciplinas">Radios de Disciplinas</label> <br>
             <input type="radio" name="disciplinas" value="amelhor"> Tec Front <br>
             <input type="radio" name="disciplinas" value="intro"> Introdução <br>
             <input type="radio" name="disciplinas" value="br"> Banco de Dados <br>
         </div>
         <br>
-        <div id="checkboxes">
+        <div id="checkboxes" class="dives center">
             <br>
-            <label for="checkboxes">Aqui sim tem checkbox de respeito</label> <br>
+            <label class="center" for="checkboxes">Aqui sim tem checkbox de respeito</label> <br>
             <input type="checkbox" name="comida1" value="feijao" id="checkbox_feijao">
-            <label for="comida1"> Feijão</label>
+            <label class="center" for="comida1"> Feijão</label>
             <br>
             <input type="checkbox" name="comida2" value="arroz" id="checkbox_arroz">
-            <label for="comida2">Arroz</label>
+            <label class="center" for="comida2">Arroz</label>
             <br>
             <input type="checkbox" name="comida3" value="batata" id="checkbox_batata">
-            <label for="comida3">Batata</label>
+            <label class="center" for="comida3">Batata</label>
         </div>
         <br>
         <input type="datetime-local" name="data_time" id="data">
         <br>
-        <label for="cars">Choose a car:</label>
+        <label class="center" for="cars">Choose a car:</label>
 
         <select name="cars" id="cars">
           <option value="volvo">Volvo</option>
@@ -53,7 +54,7 @@
         </select>
         <br>
         <input type="checkbox" name="aceito" value="Contrato aceito!" id="aceito">
-        <label for="comida1">Você aceita os termos do contrato <a href="contrato">Contrato</a></label>
+        <label class="center" for="comida1">Você aceita os termos do contrato <a href="contrato">Contrato</a></label>
 <br><br>
         <input type="submit" value="VAI AGORA!">
         <input type="reset" name="reset" id="reset">
